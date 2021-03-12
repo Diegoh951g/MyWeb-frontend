@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  color: white;
+  display: flex;
+}
+
+.presentation-message {
+  margin: 280px;
+  width: 31%;
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 30px;
+}
+
+.image-container {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 150px;
+  box-shadow: rgba(44, 111, 202, 0.8) 0px 20px 30px -10px;
+}
+
+.image-container img {
+  height: 32rem;
+  margin-left: -14rem;
+}
