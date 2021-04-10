@@ -96,7 +96,6 @@
 
 .cards {
   margin-top: 30px;
-  display: flex;
   overflow: auto;
 }
 
@@ -107,11 +106,10 @@
   min-width: 110px;
   min-height: 110px;
   margin: 15px;
+  padding-left: 35px;
   display: flex;
   flex-direction: column;
-  justify-content: left;
   justify-content: center;
-  align-items: center;
 }
 
 .logo-container {
